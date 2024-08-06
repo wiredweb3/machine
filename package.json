@@ -1,0 +1,22 @@
+{
+  "name": "machine", // Sostituisci con il nome del tuo progetto
+  "version": "1.0.0",
+  "description": "A Clamp Machine game on the TON blockchain",
+  "main": "index.js", // Punto di ingresso della tua applicazione
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ton",
+    "blockchain",
+    "game",
+    "machine"
+  ],
+  "author": "Tuo Nome <tua.email@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ton/sdk": "^latest" // Assicurati di controllare la versione più recente del TON SDK
+  }
+}
+  
