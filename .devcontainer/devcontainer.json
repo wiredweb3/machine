@@ -1,0 +1,8 @@
+{
+  "name": "Node.js Development Container",
+  "image": "mcr.microsoft.com/devcontainers/node:18", // Sostituisci 18 con la tua versione preferita
+  "features": {
+    "git": "latest"
+  },
+  "postCreateCommand": "npm install"
+}
